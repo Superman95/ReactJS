@@ -1,0 +1,143 @@
+// utility
+@import '../../node_modules/adminplus/src/sass/functions/strip-unit';
+
+
+//////////////////////
+// CUSTOM VARIABLES //
+//////////////////////
+
+$gray-dark:                         #373a3c !default;
+$gray:                              #55595c !default;
+$gray-light:                        #818a91 !default;
+$gray-lighter:                      #eceeef !default;
+$gray-lightest:                     #f7f7f9 !default;
+
+$body-bg:                           rgba(0, 0, 0, 0.05) !default;
+$body-color:                        $gray-dark !default;
+$font-family-base:                  Roboto, 'Helvetica Neue', Arial, Helvetica, sans-serif !default;
+
+$font-size-root:                    16px !default;
+$font-size-base:                    1rem !default;
+
+$grid-gutter-width:                 1.25rem !default;
+$headings-font-weight:              400 !default;
+
+$border-color:                      #e5e5e5 !default;
+$dropdown-border-color:             $border-color !default;
+
+$brand-primary:                     $light-blue-600 !default;
+$brand-secondary:                   darken($brand-primary,18%) !default;
+$brand-warning:                     #FF9800 !default;
+$brand-info:                        #00BCD4 !default;
+$brand-success:                     $green-600 !default;
+$brand-danger:                      $red-600 !default;
+
+$btn-border-radius:                 0 !default;
+
+$btn-secondary-color:               #fff !default;
+$btn-secondary-bg:                  $brand-secondary !default;
+$btn-secondary-border:              $brand-secondary !default;
+
+$card-border-color:                 #e5e5e5 !default;
+$card-border-radius:                3px !default;
+
+$breadcrumb-active-color:           rgba(0, 0, 0, 0.54) !default;
+$breadcrumb-divider:                '>' !default;
+$breadcrumb-divider-color:          rgba(0, 0, 0, 0.24) !default;
+$breadcrumb-bg:                     transparent !default;
+
+$state-success-bg:                  lighten($brand-success, 43%) !default;
+$state-info-bg:                     lighten($brand-info, 54%) !default;
+$state-warning-bg:                  lighten($brand-warning, 43%) !default;
+$state-danger-bg:                   lighten($brand-danger, 40%) !default;
+
+$progress-bar-bg:                   $brand-primary !default;
+
+$list-group-border-color:           $card-border-color !default;
+$list-group-border-radius:          0 !default;
+
+$progress-bar-success-bg:           $brand-success !default;
+
+$pagination-disabled-bg:            #efefef !default;
+
+$state-success-text:                darken($brand-success, 13%) !default;
+$state-success-bg:                  lighten($brand-success, 48%) !default;
+$state-success-border:              $state-success-bg !default;
+
+$state-primary-text:                darken($brand-primary, 13%) !default;
+$state-info-bg:                     lighten($brand-primary, 48%) !default;
+$state-info-border:                 $state-info-bg !default;
+
+$state-warning-text:                darken($brand-warning, 13%) !default;
+$state-warning-bg:                  lighten($brand-warning, 44%) !default;
+$state-warning-border:              $state-warning-bg !default;
+
+$state-danger-text:                 darken($brand-danger, 13%) !default;
+$state-danger-bg:                   lighten($brand-danger, 40%) !default;
+$state-danger-border:               $state-danger-bg !default;
+
+$progress-bar-success-bg:           $brand-success !default;
+$progress-bar-info-bg:              $brand-info !default;
+$progress-bar-warning-bg:           $brand-warning !default;
+$progress-bar-danger-bg:            $brand-danger !default;
+
+$jumbotron-bg:                      darken($body-bg, 5%) !default;
+$jumbotron-border:                  1px solid rgba(0,0,0, .05) !default;
+
+$input-border-color:                $gray-lighter !default;
+$input-group-addon-border-color:    $input-border-color !default;
+
+$text-muted:                        $gray-light !default;
+$text-muted-light:                  lighten($text-muted, 22%) !default;
+
+$card-nav-link:                     $gray-light !default;
+$card-nav-link-hover:               $gray !default;
+
+////////////
+// NAVBAR //
+////////////
+
+$navbar-height:                     56px !default;
+$navbar-line-height:                56px !default;
+$navbar-padding-vertical:           0 !default;
+$navbar-padding-horizontal:         0 !default;
+$navbar-box-shadow:                 none !default;
+
+/////////////////////////////////
+// DEFAULT BOOTSTRAP VARIABLES //
+/////////////////////////////////
+
+@import 'variables';
+
+
+
+// AdminPlus
+@import '../../node_modules/adminplus/src/sass/scaffolding';
+@import '../../node_modules/adminplus/src/sass/backgrounds';
+@import '../../node_modules/adminplus/src/sass/buttons';
+@import '../../node_modules/adminplus/src/sass/pagination';
+@import '../../node_modules/adminplus/src/sass/jumbotron';
+@import '../../node_modules/adminplus/src/sass/media';
+@import '../../node_modules/adminplus/src/sass/breadcrumb';
+@import '../../node_modules/adminplus/src/sass/list-group';
+@import '../../node_modules/adminplus/src/sass/cards';
+@import '../../node_modules/adminplus/src/sass/forms';
+@import '../../node_modules/adminplus/src/sass/helpers';
+@import '../../node_modules/adminplus/src/sass/material-icons';
+@import '../../node_modules/adminplus/src/sass/progress';
+@import '../../node_modules/adminplus/src/sass/tabs';
+
+// Navbar components
+@import '../../node_modules/adminplus/src/sass/navbar-components/core';
+@import '../../node_modules/adminplus/src/sass/navbar-components/toggler';
+@import '../../node_modules/adminplus/src/sass/navbar-components/brand';
+@import '../../node_modules/adminplus/src/sass/navbar-components/menu';
+@import '../../node_modules/adminplus/src/sass/navbar-components/dropdown';
+@import '../../node_modules/adminplus/src/sass/navbar-components/forms';
+
+// Navbar skins
+@import '../../node_modules/adminplus/src/sass/navbar-skins/navbar-light';
+@import '../../node_modules/adminplus/src/sass/navbar-skins/navbar-dark';
+
+// Sidebar components
+@import '../../node_modules/adminplus/src/sass/sidebar-components/card';
